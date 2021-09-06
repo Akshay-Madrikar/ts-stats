@@ -1,0 +1,26 @@
+{
+  "name": "ts-stats",
+  "version": "1.0.0",
+  "description": "This repo is created just to walk through TypeScript concepts to improve my skills",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshay-Madrikar/ts-stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshay-Madrikar/ts-stats/issues"
+  },
+  "homepage": "https://github.com/Akshay-Madrikar/ts-stats#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
