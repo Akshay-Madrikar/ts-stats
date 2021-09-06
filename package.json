@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Akshay-Madrikar/ts-stats#readme",
   "dependencies": {
+    "@types/node": "^16.7.10",
     "concurrently": "^6.2.1",
     "nodemon": "^2.0.12"
   }
